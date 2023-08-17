@@ -114,13 +114,13 @@ body {
 #nowplaying {
   border: 2px;
   border-style: inset;
-  height: 40px;
-  width: 80px;
+  height: 200px;
+  width: 100px;
   animation-name: nowplay;
   animation-duration: 10s;
 }
 
 @keyframes nowplay {
-  from {width: 80px}
+  from {width: 200px}
   to {width: 0px}
 }
