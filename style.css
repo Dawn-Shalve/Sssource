@@ -111,3 +111,16 @@ body {
   border-style: dotted;
   border-color: black;
 }
+#nowplaying {
+  border: 2px;
+  border-style: inset;
+  height: 40px;
+  width: 80px;
+  animation-name: nowplay;
+  animation-duration: 10s;
+}
+
+@keyframes nowplay {
+  from {width: 80px}
+  to {width: 0px}
+}
