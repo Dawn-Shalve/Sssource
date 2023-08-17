@@ -1,95 +1,107 @@
 #bg {
-    background-image: linear-gradient(brown, red);
-    background-repeat: repeat-x;
-    height: 1000px;
-    width: 100%;
+  background-image: linear-gradient(brown, red);
+  background-repeat: repeat-x;
+  height: 1000px;
+  width: 100%;
 
 }
 #icon {
-    position: relative; 
-    top:20px;
-     }
+  position: relative; 
+  top:20px;
+  width: 70%;
+  
+   }
 #homebtn {
-    color:black;
-    border-style: ridge;
-    text-decoration: green;
+  color:black;
+  border-style: ridge;
+  text-decoration: green;
 }
 #Title {
-  font-size:350%;
-  font-family:'Times New Roman',serif;
-  text-decoration: underline;
-  border-style: initial;
-  border-color: black;
-  position: relative;
-  padding-bottom:0px;
+font-size:350%;
+font-family:'Times New Roman',serif;
+text-decoration: underline;
+border-style: initial;
+border-color: black;
+position: relative;
+padding-bottom:0px;
 }
 #art1 {
-  border: 20px;
+border: 20px;
 }
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(brown, red);
-    background-repeat: repeat-x;
-    height: 100px;
-    width: 100%;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    height: 40px;
-    font-family: fantasy, cursive;
-    padding-top:0px;
-    border-style: groove;
-    border-color: black;
-    background-color: white;
-  }
-  
-  .topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    color: black;
-    background-color: gray;
-  }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-  }
-  #topwhite {
-    height:150px;
-    background-color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(brown, red);
+  background-repeat: repeat-x;
+  height: 100px;
+  width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  height: 40px;
+  font-family: fantasy, cursive;
+  padding-top:0px;
+  border-style: groove;
+  border-color: black;
+  background-color: white;
     border-width: 2px;
-    border-color: black;
-    border-style: solid;
-  }
-  .artbutton {
-    width:90px;
-    height:90px;
-    background-color:green;
-    top:5px;
-    left:5px;
+    width:100%;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: black;
+  background-color: gray;
+    cursor: pointer;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+}
+
+.topnav a.active:hover {
+  opacity: 0.8
+}
+#topwhite {
+  height:150px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
     border-width: 0px;
-    border-radius: 10px;
-  }
-  .artbutton:hover {
-    opacity:0.8;
-  }
-  .article {
-    border-style:outset;
-    border-width: 2px;
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    border-color: black;
-    margin: 0px;
-  }
-  .credit {
-    color: gray;
-  }
+      width:100%;
+}
+.artbutton {
+  width:90px;
+  height:90px;
+  background-color:green;
+  position: relative;
+  top:5px;
+  left:5px;
+  border-width: 0px;
+  border-radius: 10px;
+}
+.artbutton:hover {
+  opacity:0.8;
+    cursor: pointer
+}
+.article {
+  border-style:outset;
+  border-width: 2px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-color: black;
+  margin: 0px;
+}
+.credit {
+  color: gray;
+}
