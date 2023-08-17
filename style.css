@@ -105,3 +105,9 @@ body {
 .credit {
   color: gray;
 }
+.comic {
+  width: 75%;
+  height: 30%;
+  border-style: dotted;
+  border-color: black;
+}
