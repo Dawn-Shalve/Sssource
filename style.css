@@ -1,126 +1,166 @@
 #bg {
-  background-image: linear-gradient(brown, red);
-  background-repeat: repeat-x;
-  height: 1000px;
-  width: 100%;
-
-}
-#icon {
-  position: relative; 
-  top:20px;
-  width: 70%;
+    background-image: linear-gradient(brown, red);
+    background-repeat: repeat-x;
+    height: 1000px;
+    width: 100%;
   
-   }
-#homebtn {
-  color:black;
-  border-style: ridge;
-  text-decoration: green;
-}
-#Title {
-font-size:350%;
-font-family:'Times New Roman',serif;
-text-decoration: underline;
-border-style: initial;
-border-color: black;
-position: relative;
-padding-bottom:0px;
-}
-#art1 {
-border: 20px;
-}
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(brown, red);
-  background-repeat: repeat-x;
-  height: 100px;
-  width: 100%;
-}
-
-.topnav {
-  overflow: hidden;
-  height: 40px;
-  font-family: fantasy, cursive;
-  padding-top:0px;
-  border-style: groove;
+  }
+  #icon {
+    position: relative; 
+    top:20px;
+    width: 70%;
+    
+     }
+  #homebtn {
+    color:black;
+    border-style: ridge;
+    text-decoration: green;
+  }
+  #Title {
+  font-size:350%;
+  font-family:'Times New Roman',serif;
+  text-decoration: underline;
+  border-style: initial;
   border-color: black;
-  background-color: white;
-    border-width: 2px;
-    width:100%;
-}
-
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  color: black;
-  background-color: gray;
-    cursor: pointer;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-}
-
-.topnav a.active:hover {
-  opacity: 0.8
-}
-#topwhite {
-  height:150px;
-  background-color: white;
-  border-color: black;
-  border-style: solid;
-    border-width: 0px;
-      width:100%;
-}
-.artbutton {
-  width:90px;
-  height:90px;
-  background-color:green;
   position: relative;
-  top:5px;
-  left:5px;
-  border-width: 0px;
-  border-radius: 10px;
-}
-.artbutton:hover {
-  opacity:0.8;
-    cursor: pointer
-}
-.article {
-  border-style:outset;
-  border-width: 2px;
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  border-color: black;
-  margin: 0px;
-}
-.credit {
-  color: gray;
-}
-.comic {
-  width: 75%;
-  height: 30%;
-  border-style: dotted;
-  border-color: black;
-}
-#nowplaying {
-  border: 2px;
-  border-style: inset;
-  height: 200px;
-  width: 25px;
-  animation-name: nowplay;
-  animation-duration: 10s;
-}
+  padding-bottom:0px;
+  }
+  #art1 {
+  border: 20px;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(brown, red);
+    background-repeat: repeat-x;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    height: 40px;
+    font-family: fantasy, cursive;
+    padding-top:0px;
+    border-style: groove;
+    border-color: black;
+    background-color: white;
+      border-width: 2px;
+      width:100%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: black;
+    background-color: gray;
+      cursor: pointer;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+  }
+  
+  .topnav a.active:hover {
+    opacity: 0.8
+  }
+  #topwhite {
+    height:145px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+    width:100%;
+  }
+  .artbutton {
+    width:90px;
+    height:90px;
+    background-color:green;
+    position: relative;
+    top:5px;
+    left:5px;
+    border-width: 0px;
+    border-radius: 10px;
+  }
+  .artbutton:hover {
+    opacity:0.8;
+      cursor: pointer
+  }
+  .article {
+    border-style:outset;
+    border-width: 2px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-color: black;
+    margin: 0px;
+  }
+  .credit {
+    color: gray;
+  }
+  #comic {
+    width: 75%;
+    height: 30%;
+    border-style: dotted;
+    border-color: black;
+  }
+  #nowplaying {
+    border: 0px;
+    border-style: inset;
+    height: 0px;
+    width: 0px;
+    animation-name: nowplay;
+    animation-duration: 5s;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  @keyframes nowplayy {
+    from {width: 200px; height: 70px; border-width: 2px;}
+    to {width: 0px; height: 70px; border-width: 2px;}
+  }
+  #nowplayingimg {
+    width: 60px;
+    height: 70px;
+    animation-name: nowplayinganim;
+    animation-duration: 5s;
+    left: 0px;
+    right: 0px;
 
-@keyframes nowplay {
-  from {width: 200px; height: 25px;}
-  to {width: 0px; height: 0px;}
-}
+  }
+  @keyframes nowplayinganim {
+    0%{left: 130px;}
+    100%{left: 0px;}
+  }
+  #comicborder {
+    border-style: groove;
+    border-color:white;
+    width: 98.9%;
+    height: 78%;
+  }
+  .articleholder {
+    border-style: inset;
+    border-radius: 1%;
+    z-index: 1;
+    border: 7px solid black;
+
+    background: linear-gradient(to top, darkgrey 7px, transparent 1px), 
+
+    linear-gradient(to bottom, darkgrey 7px, transparent 1px),  
+
+    linear-gradient(to left, darkgrey 7px, transparent 1px),  
+
+    linear-gradient(to right, darkgrey 7px, transparent 1px);
+
+  }
+  .articleholder #comic {
+    bottom: 30%;
+    right: 40%
+  }
