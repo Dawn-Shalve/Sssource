@@ -1,5 +1,4 @@
 #bg {
-    background-image: linear-gradient(brown, red);
     background-repeat: repeat-x;
     height: 1000px;
     width: 100%;
@@ -102,10 +101,10 @@
     height: 100px;
     background-color: white;
     border-color: black;
-    margin: 0px;
     position:relative;
     left:10px;
-    top:10px
+    top:10px;
+    margin: 2px;
 
   }
   .credit {
@@ -165,17 +164,57 @@
     border-radius: 1%;
     z-index: 1;
     border: 7px solid black;
-
-    background: linear-gradient(to top, darkgrey 7px, transparent 1px), 
-
-    linear-gradient(to bottom, darkgrey 7px, transparent 1px),  
-
-    linear-gradient(to left, darkgrey 7px, transparent 1px),  
-
-    linear-gradient(to right, darkgrey 7px, transparent 1px);
-
+    padding: 20px;
   }
   .articleholder #comic {
     bottom: 30%;
-    right: 40%
+    right: 40%;
+    border: 3px;
   }
+  #comicimg {
+    top:20px;
+    width: 100%;
+  }
+  #🤓 {
+    border-style: groove;
+    border-width: 20px;
+    border-color: gray;
+  }
+  .grid {
+    display: grid;
+    column-gap: 1px;
+    row-gap: 30px;
+    margin: 10px;
+    justify-content: space-evenly;
+    grid-template-columns: min-content;
+  }
+  #site {
+    background-image: linear-gradient(brown, red);
+    width: auto;
+    height: auto;
+  }
+ #😊 {
+  grid-column: auto;
+  grid-row: 1;
+}
+ #com {
+  grid-row-start: 2;
+  margin: 20px;
+ }
+ #actcom {
+  top: 25%;
+  width: 75%;
+  border-width: 20px;
+  border-style: inset;
+ }
+ .article:hover {
+  color: black;
+  background-color: gray;
+  cursor: pointer;
+ }
+ .article button {
+  width: 100%;
+  height: 100%;
+  border-width: 10px;
+
+ }

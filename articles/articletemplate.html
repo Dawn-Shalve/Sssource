@@ -1,7 +1,10 @@
-<html id="bg">
-<style>
+<html>
+<body>
+  <div id="site">
+    <div id="homepage">
+    <title>Ssssource</title>
+    <style>
 #bg {
-    background-image: linear-gradient(brown, red);
     background-repeat: repeat-x;
     height: 1000px;
     width: 100%;
@@ -80,6 +83,8 @@
     border-style: solid;
     border-width: 0px;
     width:100%;
+    top:-38px;
+    position:relative;
   }
   .artbutton {
     width:90px;
@@ -102,14 +107,27 @@
     height: 100px;
     background-color: white;
     border-color: black;
-    margin: 0px;
+    position:relative;
+    left:10px;
+    top:10px;
+    margin: 2px;
+
   }
   .credit {
     color: gray;
   }
+  .comiccredit{
+    color:gray;
+    position:relative;
+    left:200px;
+    top:-100px
+  }
   #comic {
-    width: 75%;
+    width: 96%;
     height: 30%;
+    position: relative;
+    top:10px;
+    left:10px;
     border-style: dotted;
     border-color: black;
   }
@@ -152,46 +170,88 @@
     border-radius: 1%;
     z-index: 1;
     border: 7px solid black;
-
-    background: linear-gradient(to top, darkgrey 7px, transparent 1px), 
-
-    linear-gradient(to bottom, darkgrey 7px, transparent 1px),  
-
-    linear-gradient(to left, darkgrey 7px, transparent 1px),  
-
-    linear-gradient(to right, darkgrey 7px, transparent 1px);
-
+    padding: 20px;
   }
   .articleholder #comic {
     bottom: 30%;
-    right: 40%
+    right: 40%;
+    border: 3px;
   }
+  #comicimg {
+    top:20px;
+    width: 100%;
+  }
+  #🤓 {
+    border-style: groove;
+    border-width: 20px;
+    border-color: gray;
+  }
+  .grid {
+    display: grid;
+    column-gap: 1px;
+    row-gap: 30px;
+    margin: 10px;
+    justify-content: space-evenly;
+    grid-template-columns: min-content;
+  }
+  #site {
+    background-image: linear-gradient(brown, red);
+    width: auto;
+    height: auto;
+  }
+ #😊 {
+  grid-column: auto;
+  grid-row: 1;
+}
+ #com {
+  grid-row-start: 2;
+  margin: 20px;
+ }
+ #actcom {
+  top: 25%;
+  width: 75%;
+  border-width: 20px;
+  border-style: inset;
+ }
+ .article:hover {
+  color: black;
+  background-color: gray;
+  cursor: pointer;
+ }
+ .article button {
+  width: 100%;
+  height: 100%;
+  border-width: 10px;
 
-</style>
-<head>
-    <div>
-    <div class="topnav">
-        <a href="/index.html">Home</a>
-        <a class="active" href="articletemplate.html">Articles</a>
-        <a href="#community">Contact</a>
-        <a href="#athletics">About</a>
-        <a href="#studentvoices">Student Voices </a>
-        <a href="#about">About</a>
+ }
+
+
+
+    </style>
+    <script href="script.js"></script>
+    <icon></icon>
+    <head>
+      <div id="topwhite">
+      <center><h1 id ="Title">The Ssssource</h1></center>
+    
+         <div class="topnav">
+          <a class="active" href="index.html">Home</a>
+          <a href="#articles">Articles</a>
+          <a href="#community">Contact</a>
+          <a href="#athletics">About</a>
+          <a href="#studentvoices">Student Voices </a>
+          <a href="#about">About</a>
+        </div>
       </div>
-    </div>
-
-
-</head>
-
-
-<body>
-
-
+      </head>
+      <body>
+    <center><img id="icon" src="/HOMEICON.png"></center>
+    <center><h3 class="credit">Logo Designed By:</h3></center>
+    <center> <h3 class="credit">Karissa Cruz</h3></center>
 
 
 
 </body>
-
 
 
 
