@@ -1,1 +1,3 @@
-var yes = 3
+function articleuno(){
+  
+}
