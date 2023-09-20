@@ -17,7 +17,7 @@
   }
   #Title {
   font-size:350%;
-  font-family: 'Sofia';
+  font-family: cursive;
   text-decoration: underline;
   border-style: initial;
   border-color: black;
@@ -40,7 +40,7 @@
   .topnav {
     overflow: hidden;
     height: 40px;
-    font-family: fantasy, cursive;
+    font-family: 'Times New Roman', Times, serif;
     padding-top:0px;
     border-style: groove;
     border-color: black;
@@ -72,7 +72,7 @@
     opacity: 0.8
   }
   #topwhite {
-    height:145px;
+    height:2%;
     background-color: white;
     border-color: black;
     border-style: solid;
@@ -96,7 +96,7 @@
       cursor: pointer
   }
   .article {
-    border-style:outset;
+    border-style:solid;
     border-width: 2px;
     width: 100px;
     height: 100px;
@@ -109,7 +109,8 @@
 
   }
   .credit {
-    color: gray;
+    color: darkgrey;
+    font-family: cursive;
   }
   .comiccredit{
     color:gray;
@@ -176,13 +177,18 @@
     top:20px;
     width: 100%;
   }
+  #🤓1 {
+
+  }
   #🤓 {
     border-style: groove;
-    border-width: 20px;
+    border-width: 10px;
     border-color: gray;
   }
   #helpme {
-    color: aliceblue
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding:2px
   }
   .grid {
     display: grid;
