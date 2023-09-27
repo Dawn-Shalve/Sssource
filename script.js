@@ -24,7 +24,7 @@ function disableallsites(){
     document.getElementById("articlebrowser").style.display="none";
     /// Make Sure to add EVERY site template to this function \\\
 }
-Start(
-    disableallsites()
-    homepage()
-)
+function Start(){
+    disableallsites();
+    homepage();
+}
