@@ -7,10 +7,11 @@
   #actualarticle {
     border-width: 3px;
     border-style: solid;
-    border-top-width: 0px;
+    border-top-width: 2px;
     border-right-width: 0px;
     border-left-width: 0px;
     padding: 10px;
+    background-color: white;
   }
   #openingtitle {
     font-family: 'Times New Roman', Times, serif;
@@ -53,6 +54,7 @@
   }
   #articletemp {
     display:none;
+    background-color: white;
   }
   #articlebrowser {
     display:none;
@@ -67,6 +69,9 @@
     border-color: black;
     border-style: solid;
     border-bottom-width: 0px;
+    background-color: white;
+    border-left-width: 0px;
+    border-right-width: 0px;
   }
   #icon {
     position: relative; 
