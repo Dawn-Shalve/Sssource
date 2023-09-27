@@ -49,9 +49,18 @@
     
   }
   #homepage {
+    display:content;
   }
   #articletemp {
-    display:contents;
+    display:none;
+  }
+  #articlebrowser {
+    display:none;
+  }
+  #articlegrid {
+    display:grid;
+    margin: 2%;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
   #articletitle {
     border: 1px;
@@ -263,6 +272,8 @@
  #😊 {
   grid-column: auto;
   grid-row: 1;
+}
+#😊1 {
 }
  #com {
   grid-row-start: 2;
