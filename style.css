@@ -53,7 +53,7 @@
     
   }
   #homepage {
-    display:none;
+    display:contents;
   }
   #abouttitle {
     border-color:gray;
@@ -70,6 +70,9 @@
     border-left-width: 0px;
     width:fit-content;
     border-style: solid;
+  }
+  #ath {
+
   }
   #credtitle{
     transition:transform 1000ms;
@@ -101,6 +104,7 @@
   }
   #about {
     background-color: white;
+    display:none;
   }
   #articletemp {
     display:none;

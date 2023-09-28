@@ -32,6 +32,7 @@ function disableallsites(){
     document.getElementById("articletemp").style.display="none";
     document.getElementById("articlebrowser").style.display="none";
     document.getElementById("about").style.display ="none";
+    document.getElementById("aboutbutton").className = "none";
     /// Make Sure to add EVERY site template to this function \\\
 }
 function Start(){
