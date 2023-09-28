@@ -3,6 +3,7 @@ function article(){
     document.getElementById("articlebrowser").style.display="none";
     document.getElementById("articletemp").style.display="contents";
     disableallsites()
+    document.getElementById("articletemp").style.display="contents";
 
 }
 
@@ -13,7 +14,7 @@ function homepage(){
     document.getElementById("homebutton").className = "active";
     document.getElementById("articlebutton").className = "none";
     disableallsites()
-    document.getElementById("homeppppppage")
+    document.getElementById("homepage").style.display = "contents";
 }
 function articlebrowser(){
     document.getElementById("homepage").style.display ="none";
@@ -24,7 +25,7 @@ function articlebrowser(){
     document.getElementById("about").style.display ="none";
     document.getElementById("about").className = "none";
     disableallsites()
-    document.getElementById("articlebrowser").style.display="content";
+    document.getElementById("articlebrowser").style.display="contents";
 }
 function disableallsites(){
     document.getElementById("homepage").style.display="none";
@@ -36,8 +37,12 @@ function disableallsites(){
 function Start(){
     disableallsites();
     homepage();
-    debugmode();
 }
 function debugmode(){
     disableallsites();
+}
+function about(){
+    disableallsites()
+    document.getElementById("about").style.display="contents";
+    document.getElementById("about").style.background="white";
 }

@@ -4,6 +4,9 @@
     width: 100%;
   
   }
+  #abcontainer {
+    background-color: white;
+  }
   #actualarticle {
     border-width: 3px;
     border-style: solid;
