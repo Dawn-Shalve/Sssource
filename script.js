@@ -45,4 +45,7 @@ function about(){
     disableallsites()
     document.getElementById("about").style.display="contents";
     document.getElementById("about").style.background="white";
+    document.getElementById("homebutton").className = "none";
+    document.getElementById("articlebutton").className = "none";
+    document.getElementById("aboutbutton").className = "active";
 }
