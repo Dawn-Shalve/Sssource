@@ -1,5 +1,6 @@
 <!DOCTYPE html>
   <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div id="site">
 <title onload="Start()">Ssssource</title>
 <link rel="stylesheet" href="style.css">
@@ -45,14 +46,43 @@ function debugmode(){
 <head>
   <div id="topwhite">
   <center><h1 id ="Title">The Ssssource</h1></center>
-  <div class="topnav">
-    <a id="homebutton" class="active" onclick="homepage()">Home</a>
-    <a id="articlebutton"onclick="articlebrowser()">Articles</a>
+  <div class="navbar">
+    <a onclick="homepage()">Home</a>
+    <a onclick="articlebrowser()">Articles</a>
+    <div class="dropdown">
+      <button class="dropbtn">Community 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a onclick="Daily()">Daily Announcements</a>
+        <a href="#">Neighborhood News</a>
+        <a href="#">Interviews</a>
+        <a href="#">Surveys</a>
+        <a href="#">Talent Gallery</a>
+      </div>
+    </div>
+    <a onclick="about()">About</a>
+    <div class="dropdown">
+      <button class="dropbtn">Athletics
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Cross Country</a>
+        <a href="#">VolleyBall</a>
+        <a href="#">Basketball</a>
+        <a href="#">Golf</a>
+        <a href="#">Soccer</a>
+        <a href="#">Cheer/Dance(Competitive)</a>
+        <a href="#">Softball</a>
+        <a href="#">BaseBall</a>
+      </div>
+    </div>
+
     <a href="mailto:thessssource@gmail.com">Contact</a>
-    <a id="aboutbutton"onclick="about()">About</a>
-    <a href="#studentvoices">Community </a>
-    <a id="ath">Athletics</a>
   </div>
+
+
+
   </div>
   </head>
 <center><img id="icon" src="HOMEICON.png"></center>
@@ -60,7 +90,12 @@ function debugmode(){
 <center> <h2 class="credit">Karissa Cruz</h2></center>
 <div id="homepage">
 <div id="🤓"><h4 id="helpme">Click below to read articles all about VAAS and its events! Interested in school news? We have the updates! Love performing? We have dance, cheer, and theater news too! Any and all extracurriculars are also found in these articles, written by students, who know life in these areas first hand! If you have any topics you want to see written about or art/writing/talents you want to display, check out the “Contact” section under “About” through the email address or Google Form listed!
-  ​</h1><h1 id="helpme">Thank you Vipers! Stay Vaasome!</h1></div>
+  ​</h1>
+  <div id="line"></div>
+  
+  
+  
+  <h1 id="thanksvipers">Thank you Vipers! Stay Vaasome!</h1></div>
 <div id="articleholder" class="grid">
 <div id="😊" class="article">
   <a>
@@ -146,7 +181,7 @@ function debugmode(){
   <h1 id="abouttitle">About Us!</h1>
   <h3 id="Mission">Missions/Vision Statements</h3>
   <h2>Our goal is to provide a creative outlet for students to express their opinions and feelings regarding both school and our ever-evolving society. We feel that creativity and self-expression could be more encouraged in today's world so we wanted to allow a safe space for VAAS students to be themselves through both writing and arts. ​Through spreading news about issues within the VAAS campus, creating art pieces for the website, and encouraging being true to oneself, we believe that this will make our school a more open and expressive community, which will hopefully carry into students' adult years. </h2>
-  <div id="sitecred"></div>
+  <div id="line"></div>
   <div id=creditgrid>
     <h3 id="credtitle"> Founders/ Editor and Chief</h3>
     <h4 id="extracredit">Dana Barbee</h4>
@@ -161,7 +196,48 @@ function debugmode(){
   </div>
 </div>
 </div>
+<div id="Community-Daily-Announcements">
+  <div id="whitespace">
+  <h1 id="SectionTitle">Daily Announcements</h1>
+  <div id="line"></div>
+  <p id="Centersmalltext">Disclaimer; </p>
+  <p id="Centersmalltext">We will always try our best to keep the announcements up to date but at times it may fall behind. The lunch menus can be found through the button below which will direct you to the LAUSD website and the athletics schedules can be found under their respective sports. </p>
+  <div id="smallline"></div>
+  <div id="soft">
+    <div id="rightcolumn"> 
+      <p class="paragraphanim">January 2023</p>
+      <p class="paragraphanim">February 2023</p>
+      <p class="paragraphanim">March 2023</p>
+      <p class="paragraphanim">April 2023</p>
+      <p class="paragraphanim">May 2023</p>
+      <p class="paragraphanim">June 2023</p>
+      <p class="paragraphanim">July 2023</p>
+      <p class="paragraphanim">August 2023</p>
+      <p class="paragraphanim">September 2023</p>
+      <p class="paragraphanim">October 2023</p>
+      <p class="paragraphanim">November 2023</p>
+      <p class="paragraphanim">December 2023</p>
+    </div>
+    
 
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
 
 </div>
 <div class="grid3">

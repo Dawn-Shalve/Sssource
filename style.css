@@ -52,6 +52,62 @@
     will-change: scroll-position;
     
   }
+  #rightcolumn {
+    grid-column: 4;
+    border-color: darkgrey;
+    border-width: 1px;
+    border-style: solid;
+    margin:8px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 8px;
+    text-align: center;
+  }
+  #rightcolumn p {
+    font-family: 'Times New Roman', Times, serif;
+    transition: transform 1000ms;
+    width:fit-content;
+  }
+  .paragraphanim {
+    font-family: 'Times New Roman', Times, serif;
+    transition: transform 1000ms;
+    width:fit-content;
+  }
+  .paragraphanim:hover,
+  .paragraphanim:focus-visible {
+    transition: translateY(0.75rem);
+    transition: transform 250ms;
+  }
+  #rightcolumn p:hover,
+  #rightcolumn p:focus-visible {
+    transition: translateY(0.75rem);
+    transition: transform 250ms;
+  }
+  #Community-Daily-Announcements {
+    display:none;
+  }
+  #Centersmalltext {
+    text-align: center;
+  }
+  #soft {
+    display: grid;
+
+  }
+  #smallline {
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 10%;
+    border-style: solid;
+  }
+  #SectionTitle {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #whitespace {
+    background-color: white;
+  }
   #homepage {
     display:contents;
   }
@@ -304,11 +360,24 @@
     border-style: groove;
     border-width: 10px;
     border-color: gray;
+    background-color: white;
+  }
+  #thanksvipers {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
   }
   #helpme {
-    color: aliceblue;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     padding:2px
+  }
+  #line {
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+    width: 75%;
+    margin-left: 10%;
   }
   .grid {
     display: grid;
@@ -384,4 +453,63 @@
 }
 #lol {
   grid-column: 3;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: blacl;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(202, 194, 165);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
